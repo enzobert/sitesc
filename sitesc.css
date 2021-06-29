@@ -1,0 +1,13 @@
+body
+{
+    background-color: #808080;
+    color: #808080;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
