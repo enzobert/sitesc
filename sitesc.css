@@ -11,3 +11,39 @@ html {
     scrollbar-width: none; 
     -ms-overflow-style: none; 
 }
+
+button {
+    display: inline-block;
+    background-color: #DAA900;
+    border-radius: 5px;
+    color: #808080;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    }
+
+audio {
+    display: inline-block;
+    background-color: #808080;
+    border-radius: 5px;
+    color: #DAA900;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+    position:absolute;
+        top:10px;
+        left: 1570PX;
+    }
+}
+
+button .CATER {
+    position:absolute;
+        top:2025px;
+        left: 1755PX;
+}
