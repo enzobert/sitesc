@@ -1,5 +1,4 @@
-body
-{
+body{
     background-color: #808080;
     color: #808080;
     overflow-x: hidden;
@@ -12,21 +11,8 @@ html {
     -ms-overflow-style: none; 
 }
 
-button {
-    display: inline-block;
-    background-color: #DAA900;
-    border-radius: 5px;
-    color: #808080;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 10px;
-    width: 100px;
-    cursor: pointer;
-    }
-
 audio {
-    display: inline-block;
+    display: flex;
     background-color: #808080;
     border-radius: 5px;
     color: #DAA900;
@@ -40,10 +26,102 @@ audio {
         top:10px;
         left: 1570PX;
     }
+
+button{
+    display: inline-block;
+    background-color: #DAA900;
+    border-radius: 5px;
+    color: #808080;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    }
+
+
+
+.caterp{
+    display: flex;
+    border-radius: 5px;  
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
+    position:absolute;
+        top: 2020px;
+        left: 1745PX;
 }
 
-button .CATER {
+.cutlass{
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
     position:absolute;
-        top:2025px;
-        left: 1755PX;
+        top: 3457px;
+        left: 1762PX;
+}
+
+.herald{
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
+    position:absolute;
+        top: 5890px;
+        left: 1765PX;
+}
+
+.vulture{
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
+    position:absolute;
+        top: 6695px;
+        left: 390PX;
+}
+
+.dragon{
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
+    position:absolute;
+        top: 8068px;
+        left: 1768PX;
+}
+
+.dragonb{
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer; 
+    position:absolute;
+        top: 8230px;
+        left: 350PX;
 }
